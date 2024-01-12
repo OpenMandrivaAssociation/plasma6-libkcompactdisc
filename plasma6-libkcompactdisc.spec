@@ -1,9 +1,9 @@
 %define kcompactdisc6_major 5
-%define libkcompactdisc6 %mklibname KCompactDisc6 %{kcompactdisc6_major}
+%define libkcompactdisc6 %mklibname KCompactDisc6
 
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Name:		plasma6-libkcompactdisc
-Version:	24.01.85
+Version:	24.01.90
 Release:	1
 Summary:	KDE library for playing & ripping CDs
 Group:		System/Libraries
