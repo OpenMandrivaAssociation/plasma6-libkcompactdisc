@@ -3,7 +3,7 @@
 
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 Name:		plasma6-libkcompactdisc
-Version:	24.01.90
+Version:	24.01.95
 Release:	1
 Summary:	KDE library for playing & ripping CDs
 Group:		System/Libraries
